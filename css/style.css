@@ -31,16 +31,22 @@ h5{
 h6{
   font-family: 'Open Sans', sans-serif;;
 }
-
 a{
 	text-decoration: none;
 }
+
 /*======================
      Header section
 ========================*/
 header{
     padding: 10px 0;
     background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 33;
+    box-shadow: 0px 7px 20px rgb(0 0 0 / 50%);
 }
 .navbar-nav .nav-item {
     margin: 0 14px;
